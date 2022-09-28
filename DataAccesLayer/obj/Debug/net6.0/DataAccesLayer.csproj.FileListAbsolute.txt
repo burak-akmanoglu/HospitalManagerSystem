@@ -1,0 +1,17 @@
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.AssemblyInfo.cs
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\DataAccesLayer.deps.json
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\DataAccesLayer.runtimeconfig.json
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\DataAccesLayer.dll
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\DataAccesLayer.pdb
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.csproj.CopyComplete
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.dll
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\refint\DataAccesLayer.dll
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.pdb
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\DataAccesLayer.genruntimeconfig.cache
+C:\Users\Burak\Desktop\HospitalManagerSystem\DataAccesLayer\obj\Debug\net6.0\ref\DataAccesLayer.dll

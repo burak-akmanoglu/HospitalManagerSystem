@@ -1,0 +1,30 @@
+﻿@*
+   Storehouse/Create
+*@
+
+@model EntityLayer.Concrete.Storehouse
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+          @Html.HiddenFor(ba=>ba.StorehouseId)
+            <div class="form-group">
+                <label asp-for="StorehouseName" class="control-label"></label>
+                <input asp-for="StorehouseName" class="form-control" />
+                <span asp-validation-for="StorehouseName" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+               @Html.Label("Önem")
+    @Html.DropDownListFor(ba => ba.BuildingId, (List<SelectListItem>)ViewBag.fbv, new { @class = "form-control" })
+  </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

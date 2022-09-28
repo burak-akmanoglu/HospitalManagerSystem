@@ -1,0 +1,31 @@
+﻿@*
+    Building/Index
+*@
+@model IEnumerable<EntityLayer.Concrete.Building>
+
+<table class="table table-striped" style="width:400px">
+
+    <theead>
+        <tr>
+            <th>
+                Bina Adı
+            </th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+
+        </tr>
+    </theead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.BuildingName
+                </td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = item.BuildingId }, new { @class = "btn btn-warning" })</td>
+                <td>@Html.ActionLink("Details", "Details", new { id = item.BuildingId }, new { @class = "btn btn-success" })</td>
+            </tr>
+        }
+    </tbody>
+</table>@Html.ActionLink("Create", "Create", new { @class = "btn btn-success" })

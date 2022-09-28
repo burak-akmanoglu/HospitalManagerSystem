@@ -1,0 +1,24 @@
+﻿@*
+  Room/Details
+*@
+
+@model EntityLayer.Concrete.Room
+<form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+             @Html.HiddenFor(ba => ba.RoomId)
+            <div class="form-group">
+                <label asp-for="RoomName" class="control-label"></label>
+                <input asp-for="RoomName" class="form-control" />
+                <span asp-validation-for="RoomName" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="Building.BuildingName" class="control-label"></label>
+                <input asp-for="Building.BuildingName" class="form-control" />
+                <span asp-validation-for="Building.BuildingName" class="text-danger"></span>
+            </div>
+
+           
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+        </form>

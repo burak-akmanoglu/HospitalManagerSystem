@@ -1,0 +1,65 @@
+﻿@*
+User/Index
+*@
+@model IEnumerable<EntityLayer.Concrete.User>
+
+<table class="table table-striped" style="width:400px">
+
+    <theead>
+        <tr>
+            <th>
+                User Name
+            </th>
+            <th>
+                AD
+            </th>
+
+            <th>
+                Soyad
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Role
+            <th>
+                Password
+            </th>
+            </th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+
+        </tr>
+    </theead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.UserName
+                </td>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Surname
+                </td>
+                <td>
+                    @item.Email
+                <td>
+                  @item.Role
+
+                </td>
+                <td>
+               @item.Password
+                </td>
+                </td>
+
+
+                <td>@Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-warning" })</td>
+                <td>@Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-success" })</td>
+            </tr>
+        }
+    </tbody>
+</table>@Html.ActionLink("Create", "Create", new { @class = "btn btn-success" })
